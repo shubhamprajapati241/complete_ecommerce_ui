@@ -20,6 +20,7 @@ class _BodyState extends State<Body> {
                 children: [
                   Text(
                     "TOKOYO",
+                    "Hello",
                     style: TextStyle(
                       fontSize: getProportionateScreenWidth(36),
                       color: kPrimaryColor,
