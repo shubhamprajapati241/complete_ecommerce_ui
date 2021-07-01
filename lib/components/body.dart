@@ -29,6 +29,20 @@ class _BodyState extends State<Body> {
                 ],
               )),
           Expanded(
+              flex: 3,
+              child: Column(
+                children: [
+                  Text(
+                    "TOKOYO",
+                    "Hello",
+                    style: TextStyle(
+                      fontSize: getProportionateScreenWidth(36),
+                      color: kPrimaryColor,
+                    ),
+                  ),
+                ],
+              )),
+          Expanded(
             child: Container(
                 // color: Colors.black,
                 ),
