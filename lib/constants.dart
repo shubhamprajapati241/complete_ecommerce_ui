@@ -1,3 +1,4 @@
+import 'package:complete_ecommerce_ui/size_config.dart';
 import 'package:flutter/material.dart';
 
 const kPrimaryColor = Color(0xFFFF7643);
@@ -17,8 +18,6 @@ final headingStyle = TextStyle(
   color: Colors.black,
   height: 1.5,
 );
-
-getProportionateScreenWidth(int i) {}
 
 const defaultDuration = Duration(milliseconds: 250);
 
